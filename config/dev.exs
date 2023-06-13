@@ -2,7 +2,7 @@ import Config
 
 # Configure your database
 config :live_client, LiveClient.Repo,
-  username: "root",
+  username: "atheneum",
   password: "atheneum",
   hostname: "127.0.0.1",
   database: "legacyplatform",

@@ -18,6 +18,8 @@ defmodule LiveClientWeb.Router do
     pipe_through :browser
 
     get "/", PageController, :home
+
+    resources "/p", ProjectController, only: [:show]
   end
 
   # Other scopes may use custom stacks.
